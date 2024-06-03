@@ -6,24 +6,18 @@ Welcome to my bash scripting learning journey! In this repository, I'm documenti
 
 ### 1. User Management Scripts
 
-- **create_user.sh**:
-  - This script creates user accounts with customizable passwords through a user-friendly prompt.
-- **generate_password.sh**:
-  - Generates random passwords.
-- **generate_unique_passwords.sh**:
-  - Generates unique individual passwords for any number of user accounts passed as arguments.
-- **user_account_management.sh**:
-  - A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.  
-    [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
+- **create_user.sh**: This script creates user accounts with customizable passwords through a user-friendly prompt.
+- **generate_password.sh**: Generates random passwords.
+- **generate_unique_passwords.sh**: Generates unique individual passwords for any number of user accounts passed as arguments.
+- **user_account_management.sh**: A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.  
+   [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Log Analysis Scripts
 
 ### 2. Log Analysis
 
-- **failed_login_logs.sh**:
-  - Identifies failed login attempts from a given log file.
-- **potential_attackers.sh**:
-  - Analyzes log files to identify potential attackers and their IP addresses.
+- **failed_login_logs.sh**: Identifies failed login attempts from a given log file.
+- **potential_attackers.sh**: Analyzes log files to identify potential attackers and their IP addresses.
 
 ## Personal Use Scripts
 
