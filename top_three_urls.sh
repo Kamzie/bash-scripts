@@ -2,8 +2,9 @@
 
 # Display the top three most visited URLs for a given web server log file.
 
-LOG_FILE="${1}"
+LOG_FILE="${1}" # Assign the provided file path to LOG_FILE variable.
 
+# Check if the log file exists. If not, display an error message and exit.
 if [[ ! -e "${LOG_FILE}" ]]; then
   echo "Cannot open ${LOG_FILE}" >&2
   exit 1
