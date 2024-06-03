@@ -1,54 +1,28 @@
-# My journey of learning bash scripting
+# Bash Scripting Learning Journey
 
-Welcome to my Bash Scripts Collection! This repository contains a variety of bash scripts that I have created while learning bash scripting. These scripts serve different purposes, from system management and automation to personal utilities. Feel free to explore, use, and modify them as needed.
+Welcome to my bash scripting learning journey! In this repository, I'm documenting my progress and sharing the scripts I've developed while learning bash scripting. Below, you'll find a brief overview of each script I've created:
 
-## Table of Contents
+## Linux Administration Scripts
 
-1. [Introduction](#introduction)
-2. [Scripts](#scripts)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+### 1. User Management Scripts
 
-## Introduction
+- **create_user.sh**: This script creates user accounts with customizable passwords through a user-friendly prompt.
+- **generate_password.sh**: Generates random passwords.
+- **generate_unique_passwords.sh**: Generates unique individual passwords for any number of user accounts passed as arguments.
+- **user_account_management.sh**: A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.
 
-Bash scripting is a powerful tool for automating tasks on Unix-like systems. Through this repository, I aim to share my journey of learning bash scripting and provide useful scripts that can help with various tasks on Linux machines.
+## Log Analysis Scripts
 
-## Scripts
+### 2. Log Analysis
 
-Here is a list of some of the scripts included in this repository:
+- **failed_login_logs.sh**: Identifies failed login attempts from a given log file.
+- **potential_attackers.sh**: Analyzes log files to identify potential attackers and their IP addresses.
 
-### 1. Backup Script
+## Personal Use Scripts
 
-**Filename:** `backup.sh`  
-**Description:** A script to create backups of specified directories. It compresses the directories into a tarball and saves them to a backup location.
+### 3. Personal Use Scripts
 
-### 2. System Update Script
+- **update_apps.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
+- **check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage.
 
-**Filename:** `update_system.sh`  
-**Description:** A script to update and upgrade the system packages on a Debian-based Linux distribution. It also cleans up unnecessary files.
-
-### 3. Disk Usage Report
-
-**Filename:** `disk_usage.sh`  
-**Description:** A script to generate a report of disk usage for all mounted file systems. It outputs the results in a human-readable format.
-
-### 4. Process Monitor
-
-**Filename:** `process_monitor.sh`  
-**Description:** A script to monitor a specific process and restart it if it crashes. It logs the monitoring activities and can be run as a background service.
-
-### 5. Network InformationS
-
-**Filename:** `network_info.sh`  
-**Description:** A script to display detailed network information, including IP addresses, active connections, and interface statuses.
-
-## Usage
-
-To use any of the scripts in this repository, follow these steps:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/bash-scripts.git
-   cd bash-scripts
-   ```
+Feel free to explore the scripts, provide feedback, or contribute to their improvement. Happy scripting!
