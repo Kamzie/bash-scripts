@@ -6,10 +6,10 @@ Welcome to my bash scripting learning journey! In this repository, I'm documenti
 
 ### 1. User Management Scripts
 
-- **create_user.sh**: This script creates user accounts with customizable passwords through a user-friendly prompt.
-- **generate_password.sh**: Generates random passwords.
-- **generate_unique_passwords.sh**: Generates unique individual passwords for any number of user accounts passed as arguments.
-- **user_account_management.sh**: A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.  
+- **add-local-user-prompt.sh**: This script allows for the creation of new local user accounts by prompting for a username, full name, and password, displaying the account details upon successful creation.
+- **no-prompt-add-local-user.sh**: This script facilitates the creation of new local user accounts, where the user provides a username and comment as command-line arguments. It automatically generates a password for the account and displays the username, comment, password, and host upon successful creation.
+- **generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
+- **user_account_management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
    [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Log Analysis Scripts
