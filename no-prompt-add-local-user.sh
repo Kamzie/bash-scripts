@@ -1,21 +1,21 @@
 #!/bin/bash
 
-# This script creates a new user to the local system.
-# User will supply a username/comment specified on the command line.
+# This script creates a new user on the local system.
+# User will supply a username and a comment specified on the command line.
 # A password will be automatically generated for the account.
-# The username, comment, password and host for the account will be displayed.
+# The username, comment, password, and host for the account will be displayed.
 
 # Checks for superuser (root) privilege
 if [[ "${UID}" -ne 0 ]]
 then
-  echo "You do not have root privilege"
+  echo "You do not have root privileges."
   exit 1
 fi
 
 # Make sure a account name has been provided.
 if [[ "${#}" -lt 2 ]]
 then
-  echo "Please provide username and comments ${0}"
+  echo "Please provide username and comments: ${0}"
   exit 1
 fi
 
@@ -32,7 +32,7 @@ useradd -c "${COMMENT}" -m ${USER_NAME}
 # Error message if account cannot be created.
 if [[ "${?}" -ne 0 ]]
 then
-  echo "Account creation failed"
+  echo "Account creation failed."
   exit 1
 fi
 
@@ -43,7 +43,7 @@ echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 # Check to see if password command succeeded.
 if [[ "${?}" -ne 0 ]]
 then
-  echo "Password creation failed"
+  echo "Password creation failed."
   exit 1
 fi
 
