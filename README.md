@@ -12,7 +12,7 @@ Welcome to my bash scripting learning journey! In this repository, I'm documenti
 
 - **generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
 
-- **user_account_management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.
+- **user_account_management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
   [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Log Analysis Scripts
@@ -20,6 +20,7 @@ Welcome to my bash scripting learning journey! In this repository, I'm documenti
 ### 2. Log Analysis
 
 - **failed_login_logs.sh**: Identifies failed login attempts from a given log file.
+
 - **potential_attackers.sh**: Analyzes log files to identify potential attackers and their IP addresses.
 
 ## Personal Use Scripts
@@ -27,6 +28,7 @@ Welcome to my bash scripting learning journey! In this repository, I'm documenti
 ### 3. Personal Use Scripts
 
 - **update_apps.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
+
 - **check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage.
 
 Feel free to explore the scripts, provide feedback, or contribute to their improvement. Happy scripting!
