@@ -7,7 +7,7 @@
 # Checks for superuser (root) privileges, otherwise exit's with status of 1.
 if [[ "${UID}" -ne 0 ]]
 then
-  echo 'You do not have root privileges'
+  echo 'You do not have root privileges.'
   exit 1
 fi
 
@@ -26,7 +26,7 @@ useradd -c "${COMMENT}" -m ${USER_NAME}
 # Error message if account cannot be created.
 if [[ "${?}" -ne 0 ]]
 then
-  echo 'Account creation failed'
+  echo 'Account creation failed.'
   exit 1
 fi
 
@@ -36,7 +36,7 @@ echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 # Error message if password cannot be set.
 if [[ "${?}" -ne 0 ]]
 then
-  echo 'password creation failed'
+  echo 'password creation failed.'
   exit 1
 fi
 
