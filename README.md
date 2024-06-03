@@ -19,15 +19,15 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 ### 2. Log Analysis
 
-- **failed_login.sh**: The script analyzes a log file for failed login attempts by IP address, identifying those with counts exceeding a predefined limit. It displays the count, IP, and location for each such occurrence.
+- **potential_attackers.sh**: The script analyzes a log file (syslog_sample) for failed login attempts by IP address, identifying those with counts exceeding a predefined limit. It displays the count, IP, and location for each such occurrence.
 
-- **potential_attackers.sh**: Analyzes log files to identify potential attackers and their IP addresses.
+- **top_three_urls.sh**: This script extracts URLs from a web server log file (visited_log), counts their occurrences, and displays the top three most visited URLs.
 
 ## Personal Use Scripts
 
-### 3. Personal Use Scripts
+### 3. Simple scripts of commands I tend to use often
 
-- **update_apps.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
+- **update_system.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
 
 - **check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage.
 
