@@ -1,15 +1,20 @@
 # Bash Scripting Learning Journey
 
-Welcome to my bash scripting learning journey! In this repository, I'm documenting my progress and sharing the scripts I've developed while learning bash scripting. Below, you'll find a brief overview of each script I've created:
+Welcome to my bash scripting learning journey! In this repository, I'm documenting my progress and sharing the scripts I've developed while learning bash scripting. Below, you'll find a brief overview of each script I've created. Additionally, you may find links to README.md files for scripts that require more detailed information.
 
 ## Linux Administration Scripts
 
 ### 1. User Management Scripts
 
-- **create_user.sh**: This script creates user accounts with customizable passwords through a user-friendly prompt.
-- **generate_password.sh**: Generates random passwords.
-- **generate_unique_passwords.sh**: Generates unique individual passwords for any number of user accounts passed as arguments.
-- **user_account_management.sh**: A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.
+- **create_user.sh**:  
+  This script creates user accounts with customizable passwords through a user-friendly prompt.
+- **generate_password.sh**:  
+  Generates random passwords.
+- **generate_unique_passwords.sh**:  
+  Generates unique individual passwords for any number of user accounts passed as arguments.
+- **user_account_management.sh**:  
+  A comprehensive script for user management, allowing for user creation, archiving, deletion, and deletion of user home directories.
+  [User Account Management Script README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Log Analysis Scripts
 
