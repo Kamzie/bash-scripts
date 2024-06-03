@@ -23,12 +23,20 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **06_top_three_urls.sh**: This script extracts URLs from a web server log file (visited_log), counts their occurrences, and displays the top three most visited URLs.
 
+## Network Management Scripts
+
+### 3. Networks and automation (SSH into large network of servers)
+
+**07_ping_servers.sh**: This script pings a list of servers to check their status. It reads server names from a file and reports whether each server is up or down.
+
+**08_remote_execution.sh**: Allows executing a single command on multiple servers remotely. It supports options for verbosity, enabling root privileges, and dry run mode. The script reads a list of servers from a file and executes the specified command on each server.
+
 ## Personal Use Scripts
 
-### 3. Simple scripts of commands I tend to use often
+### 4. Simple scripts of commands I tend to use often
 
 - **update_system.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
 
-- **check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage.
+- **check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage, allowing me to differentiate between Ubuntu and Windows 11 HDDs in my dual-boot system.
 
 Feel free to explore the scripts, provide feedback, or contribute to their improvement. Happy scripting!
