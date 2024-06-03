@@ -12,14 +12,14 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
 
-- **user_account_management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
+- **user-account-management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
   [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Log Analysis Scripts
 
 ### 2. Log Analysis
 
-- **failed_login_logs.sh**: Identifies failed login attempts from a given log file.
+- **failed_login.sh**: The script analyzes a log file for failed login attempts by IP address, identifying those with counts exceeding a predefined limit. It displays the count, IP, and location for each such occurrence.
 
 - **potential_attackers.sh**: Analyzes log files to identify potential attackers and their IP addresses.
 
