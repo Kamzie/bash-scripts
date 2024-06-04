@@ -16,7 +16,7 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **03_generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
 
-  ![Screenshot of terminal once 03_generate-a-random-password.sh has completed](./password.png)
+  ![Screenshot of terminal once 03_generate-a-random-password.sh has completed](./password1.png)
 
 - **04_user-account-management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
   [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
