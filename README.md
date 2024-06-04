@@ -32,6 +32,8 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **07_potential_attackers.sh**: The script analyzes a log file (07_syslog_sample) for failed login attempts by IP address, identifying those with counts exceeding a predefined limit. It displays the count, IP, and location for each such occurrence.
 
+  ![Screenshot of terminal once 07_potential_attackers.sh has completed](./potential_attackers.png)
+
 - **08_top_three_urls.sh**: This script extracts URLs from a web server log file (08_visited_log), counts their occurrences, and displays the top three most visited URLs.
 
 ## Personal Use Scripts
