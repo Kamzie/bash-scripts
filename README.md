@@ -36,12 +36,12 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 ### 4. Simple scripts of commands I tend to use often
 
-- **09_update_system.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
+- **09_update_system.sh**: This script ensures it is run with root privileges, then updates and upgrades all packages. It removes unnecessary packages and cleans the package cache, providing success or failure messages for each step, and ends with a completion message.
+
+  ![Screenshot of terminal once 09_updated_system.sh has completed](./update_system.png)
 
 - **10_check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage, allowing me to differentiate between Ubuntu and Windows 11 HDDs in my dual-boot system.
 
   ![Screenshot of terminal once 10_check_partitions.sh has completed](./check_partitions.png)
-
-  <img src="check_partitions.png" width="566" height="123">
 
 Feel free to explore the scripts, provide feedback, or contribute to their improvement. Happy scripting!
