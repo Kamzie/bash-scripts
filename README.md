@@ -30,7 +30,7 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 - **07_ping_servers.sh**: This script pings a list of servers to check their status. It reads server names from a file and reports whether each server is up or down.
 
 - **08_remote_execution.sh**: Allows executing a single command on multiple servers remotely. It supports options for verbosity, enabling root privileges, and dry run mode. The script reads a list of servers from a file and executes the specified command on each server.  
-  [Remote execution - README.md](https://github.com/Kamzie/User-account-management-script)
+  [Remote execution - README.md](https://github.com/Kamzie/Remote-execution-script)
 
 ## Personal Use Scripts
 
