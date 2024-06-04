@@ -39,5 +39,6 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 - **09_update_system.sh**: Updates and upgrades applications on Ubuntu system, and performs autoremove and autoclean.
 
 - **10_check_partitions.sh**: Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage, allowing me to differentiate between Ubuntu and Windows 11 HDDs in my dual-boot system.
+  (./check_partitions.png)
 
 Feel free to explore the scripts, provide feedback, or contribute to their improvement. Happy scripting!
