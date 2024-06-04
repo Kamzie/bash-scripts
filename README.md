@@ -22,7 +22,7 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 - **05_ping_servers.sh**: This script pings servers from a file, reporting their online/offline status. Requires pre-configured SSH key-based authentication.
 
 - **06_remote_execution.sh**: Allows executing a single command on multiple servers remotely. It supports options for verbosity, enabling root privileges, and dry run mode. The script reads a list of servers from a file and executes the specified command on each server. Requires pre-configured SSH key-based authentication.
-  [Remote execution - README.md](https://github.com/Kamzie/User-account-management-script)
+  [Remote execution - README.md](https://github.com/Kamzie/Remote-execution-script)
 
 ## Log Analysis Scripts
 
