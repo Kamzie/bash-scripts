@@ -38,13 +38,21 @@ fi
 
 # Generate a set a random password.
 PASSWORD=$(date +%s%N | sha256sum | head -c48)
-echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 
-# Check to see if password command succeeded.
-if [[ "${?}" -ne 0 ]]
+# Try setting password using --stdin first
+echo ${PASSWORD} | passwd --stdin ${USER_NAME} &>/dev/null
+
+# Check if password command succeeded.
+if [[ "${?}" -ne 0 ]]  
 then
-  echo "Password creation failed."
-  exit 1
+  # If --stdin failed, use -S as fallback
+  echo "${PASSWORD}" | passwd -S ${USER_NAME} &>/dev/null
+  # Check if password command succeeded.
+  if [[ "${?}" -ne 0 ]]
+  then
+    echo "Password creation failed."
+    exit 1
+  fi
 fi
 
 # Force password change on first login
