@@ -6,19 +6,19 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 ### 1. User Management Scripts
 
-- **01_add-local-user-prompt.sh**: This script allows for the creation of new local user accounts by prompting for a username, full name, and password, displaying the account details upon successful creation.
+- **01_add_local_user_prompt.sh**: This script allows for the creation of new local user accounts by prompting for a username, full name, and password, displaying the account details upon successful creation.
 
-  ![Screenshot of terminal once 01_add-local-user-prompt.sh has completed](./add_local.png)
+  ![Screenshot of terminal once 01_add_local_user_prompt.sh has completed](./add_local.png)
 
-- **02_no-prompt-add-local-user.sh**: This script facilitates the creation of new local user accounts, where the user provides a username and comment as command-line arguments. It automatically generates a password for the account and displays the username, comment, password, and host upon successful creation.
+- **02_no_prompt_add_local_user.sh**: This script facilitates the creation of new local user accounts, where the user provides a username and comment as command-line arguments. It automatically generates a password for the account and displays the username, comment, password, and host upon successful creation.
 
-  ![Screenshot of terminal once 02_no-prompt-add-local-user.sh has completed](./no_prompt.png)
+  ![Screenshot of terminal once 02_no-prompt_add_local_user.sh has completed](./no_prompt.png)
 
-- **03_generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
+- **03_generate_a_random_password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
 
-  ![Screenshot of terminal once 03_generate-a-random-password.sh has completed](./password1.png)
+  ![Screenshot of terminal once 03_generate_a_random_password.sh has completed](./password1.png)
 
-- **04_user-account-management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
+- **04_user_account_management.sh**: This script handles user account management on Unix-like systems, offering options to disable, delete, or archive user accounts and their home directories.  
   [User Account Management - README.md](https://github.com/Kamzie/User-account-management-script)
 
 ## Network Management Scripts
