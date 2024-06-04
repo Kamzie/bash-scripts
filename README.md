@@ -8,7 +8,11 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **01_add-local-user-prompt.sh**: This script allows for the creation of new local user accounts by prompting for a username, full name, and password, displaying the account details upon successful creation.
 
+  ![Screenshot of terminal once 01_add-local-user-prompt.sh has completed](./add_local.png)
+
 - **02_no-prompt-add-local-user.sh**: This script facilitates the creation of new local user accounts, where the user provides a username and comment as command-line arguments. It automatically generates a password for the account and displays the username, comment, password, and host upon successful creation.
+
+  ![Screenshot of terminal once 02_no-prompt-add-local-user.sh has completed](./no_prompt.png)
 
 - **03_generate-a-random-password.sh**: This script generates random passwords with customizable lengths and an option to include a special character. It also supports verbose mode for detailed output.
 
