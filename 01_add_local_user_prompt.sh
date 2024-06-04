@@ -30,14 +30,20 @@ then
   exit 1
 fi
 
-# Set the password for the user.
-echo ${PASSWORD} | passwd --stdin ${USER_NAME}
+# Try setting password using --stdin first
+echo ${PASSWORD} | passwd --stdin ${USER_NAME} &>/dev/null
 
-# Error message if password cannot be set.
-if [[ "${?}" -ne 0 ]]
+# Check if password command succeeded.
+if [[ "${?}" -ne 0 ]]  
 then
-  echo 'password creation failed.'
-  exit 1
+  # If --stdin failed, use -S as fallback
+  echo "${PASSWORD}" | passwd -S ${USER_NAME} &>/dev/null
+  # Check if password command succeeded.
+  if [[ "${?}" -ne 0 ]]
+  then
+    echo "Password creation failed."
+    exit 1
+  fi
 fi
 
 # Force password change on first login
