@@ -3,7 +3,7 @@
 # This script pings a list of servers and reports their health status.
 
 # Server list file location (modify as needed).
-SERVER_LIFE='/vagrant/05_servers'
+SERVER_LIFE='/vagrant/04_servers'
 
 # Check if server list file exists.
 if [[ ! -e ${SERVER_LIFE} ]]; then
