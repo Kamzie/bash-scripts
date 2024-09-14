@@ -66,7 +66,7 @@ Welcome to my bash scripting journey! In this repository, I'm documenting my pro
 
 - **08_check_partitions.sh**:
 
-  Organizes and displays partitions, ordering them by size from high to low. Removes boot/MBR partitions and shows only actual SSDs/NVME drives and any inserted removable USB drives/storage, allowing me to differentiate between Ubuntu and Windows 11 HDDs in my dual-boot system.
+  Organizes and displays partitions, ordering them by size from largest to smallest. Removes boot/MBR partitions and shows only actual SSDs/NVMe drives and any inserted removable USB drives/storage, allowing me to differentiate between Ubuntu and Windows 11 HDDs in my dual-boot system.
 
   ![Screenshot of terminal once 08_check_partitions.sh script has completed](./check_partitions.png)
 
